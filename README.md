@@ -10,46 +10,60 @@ Repositorio oficial del proyecto de modelamiento y desarrollo para la **Clínica
 
 ---
 
+## 📌 ¿Qué se agregó en esta versión optimizada y dónde encontrarlo?
+
+Para facilitar la revisión tanto de la docente como de los compañeros del equipo, aquí está el resumen de las mejoras añadidas:
+
+| Componente Agregado | ¿Para qué sirve? | ¿Dónde está en el proyecto? |
+| :--- | :--- | :--- |
+| 📄 **Informe Word Oficial** (`Cristopher_Figueroa.docx`) | Documento final con formato oficial INACAP, portada, autoría, tablas MoSCoW, fichas de Casos de Uso y los 10 diagramas incrustados. | [`Academico/Cristopher_Figueroa.docx`](./03_trabajo_final_optimizado/Academico/Cristopher_Figueroa.docx) |
+| 📊 **Libro Excel de Gestión** (`Cristopher_Figueroa_Proyecto.xlsx`) | 17 pestañas estandarizadas según el archivo modelo de la docente (`Huellitas`) con matriz RACI, Sprints, Gantt y Mockups. | [`Academico/Cristopher_Figueroa_Proyecto.xlsx`](./03_trabajo_final_optimizado/Academico/Cristopher_Figueroa_Proyecto.xlsx) |
+| 🗄️ **Diagrama BD en 3 Niveles** (`10_modelo_bd_3_niveles.png`) | **Clave del Criterio 1.1.4:** Desglose visual en: 1) Conceptual/Lógico, 2) Relacional (3FN) y 3) Físico (DDL SQL con prevención anti-choque). | [`Academico/diagramas/10_modelo_bd_3_niveles.png`](./03_trabajo_final_optimizado/Academico/diagramas/10_modelo_bd_3_niveles.png) |
+| 📘 **Guía Técnica Paso a Paso** (`GUIA_TECNICA_PASO_A_PASO.md`) | Explicación didáctica y simple de cómo funciona cada pieza (UML, BD, seguridad AES-256) para entender el proyecto al 100%. | [`Academico/GUIA_TECNICA_PASO_A_PASO.md`](./03_trabajo_final_optimizado/Academico/GUIA_TECNICA_PASO_A_PASO.md) |
+| 🎤 **Guion de Defensa Oral** (`GUIA_PRESENTACION_DEFENSA.md`) | Libreto minuto a minuto (12-15 min) para la disertación grupal, diapositivas recomendadas y respuestas a preguntas de la profesora. | [`Academico/GUIA_PRESENTACION_DEFENSA.md`](./03_trabajo_final_optimizado/Academico/GUIA_PRESENTACION_DEFENSA.md) |
+| ⚖️ **Informe de Auditoría y Rúbrica** (`INFORME_AUDITORIA_Y_COMPARATIVA.md`) | Comparativa detallada entre la versión inicial (6.3) y la versión optimizada (7.0) desglosando los 60 puntos de la pauta. | [`Academico/INFORME_AUDITORIA_Y_COMPARATIVA.md`](./03_trabajo_final_optimizado/Academico/INFORME_AUDITORIA_Y_COMPARATIVA.md) |
+| ⚙️ **Configuración de Pruebas** (`pytest.ini`) | Resuelve errores de importación y permite ejecutar todas las pruebas automáticas simplemente escribiendo `pytest`. | [`pytest.ini`](./03_trabajo_final_optimizado/pytest.ini) |
+| 🚀 **Script de Inicio Rápido** (`iniciar_sistema.sh`) | Script ejecutable para levantar el servidor web en Linux / Android con un solo clic. | [`iniciar_sistema.sh`](./03_trabajo_final_optimizado/iniciar_sistema.sh) |
+
+---
+
 ## 📁 Estructura del Repositorio
 
-El repositorio está organizado en las 5 carpetas solicitadas para máxima claridad y trazabilidad académica:
-
 1. **[`01_requisitos/`](./01_requisitos)**:
-   - Contiene la pauta de evaluación oficial (`1 - Evaluación Sumativa 5 - Descripción.docx`).
-   - Las instrucciones institucionales (`2 - Evaluación Sumativa 5 - Instrucciones.pdf`).
-   - La rúbrica detallada de calificación (`3 - Evaluación Sumativa 5 - Rubrica.docx`).
-   - El libro Excel de ejemplo oficial entregado por la docente (`Huellitas_Proyecto_SCRUM`).
+   - Pauta de evaluación oficial (`1 - Descripción.docx`).
+   - Instrucciones institucionales (`2 - Instrucciones.pdf`).
+   - Rúbrica detallada de calificación (`3 - Rubrica.docx`).
+   - Libro Excel modelo entregado por la docente (`Huellitas_Proyecto_SCRUM.xlsx`).
 
 2. **[`02_trabajo_fernando/`](./02_trabajo_fernando)**:
-   - El trabajo base y avances desarrollados por Fernando Durán (Informe inicial, Excel, diagramas y primera versión del prototipo).
+   - Trabajo base y avances desarrollados inicialmente por Fernando Durán.
 
 3. **[`03_trabajo_final_optimizado/`](./03_trabajo_final_optimizado)**:
-   - **Documentos definitivos para entrega institucional**:
-     - `Cristopher_Figueroa.docx`: Informe técnico formal con formato oficial INACAP, tablas MoSCoW, historias Gherkin, especificación de Casos de Uso y los 10 diagramas integrados.
-     - `Cristopher_Figueroa_Proyecto.xlsx`: Libro Excel de 17 pestañas estandarizado según la pauta de la docente.
-     - `diagramas/`: Los 10 diagramas UML, de Base de Datos (en 3 niveles), Flujos TO-BE, Mockups y Tablero Kanban en alta resolución.
-     - `Sistema/`: Prototipo web operativo desarrollado en **FastAPI + SQLite + Tailwind CSS**, con pruebas automatizadas (`pytest`) pasando al 100%.
+   - **Versión completa y definitiva para la entrega y presentación:**
+     - `Academico/`: Documentos formales (`.docx`, `.xlsx`), guías explicativas, SQL y los 10 diagramas.
+     - `app/`: Backend en FastAPI con control de acceso RBAC y cifrado AES-256.
+     - `static/`: Frontend web responsivo para pacientes y secretaría.
+     - `tests/`: Pruebas automatizadas unitarias con Pytest.
 
 4. **[`04_guias_y_explicaciones/`](./04_guias_y_explicaciones)**:
-   - `GUIA_TECNICA_PASO_A_PASO.md`: Documento didáctico que explica en detalle el porqué de cada decisión técnica, arquitectónica y metodológica para entender el proyecto a fondo.
-   - `GUIA_PRESENTACION_DEFENSA.md`: Guion completo minuto a minuto para la defensa oral (12-15 min), láminas recomendadas, demostración en vivo y banco de preguntas difíciles con respuestas para asegurar la **Nota 7.0**.
+   - Copia de acceso rápido de la Guía Técnica Paso a Paso y el Guion de Presentación Oral.
 
 5. **[`05_evaluacion_comparativa/`](./05_evaluacion_comparativa)**:
-   - `INFORME_AUDITORIA_Y_COMPARATIVA.md`: Matriz de cumplimiento de la rúbrica oficial, contraste entre el trabajo inicial y la versión final optimizada, y resolución de brechas técnicas.
+   - Copia de acceso rápido de la matriz de auditoría técnica y rúbrica oficial.
 
 ---
 
 ## 🚀 Ejecución Rápida del Prototipo
 
 ```bash
-cd 03_trabajo_final_optimizado/Sistema
+cd 03_trabajo_final_optimizado
 python run_server.py
 ```
 Abre en tu navegador: `http://127.0.0.1:8000`
 
 ### Ejecución de Pruebas Automatizadas
 ```bash
-cd 03_trabajo_final_optimizado/Sistema
+cd 03_trabajo_final_optimizado
 pytest
 ```
 *Validación al 100% de no-colisión de horas, reprogramación y seguridad RBAC con cifrado AES-256.*
