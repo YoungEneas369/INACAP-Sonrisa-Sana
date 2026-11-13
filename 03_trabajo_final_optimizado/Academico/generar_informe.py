@@ -10,7 +10,7 @@ from docx.oxml.ns import nsdecls
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DIAG_DIR = os.path.join(BASE_DIR, "diagramas")
-OUT_DOCX = "/root/INACAP/03_mi_trabajo/Cristopher_Figueroa.docx"
+OUT_DOCX = os.path.join(BASE_DIR, "Cristopher_Figueroa.docx")
 
 
 def set_cell_bg(cell, hex_color):
@@ -228,8 +228,10 @@ def build_report():
         "En estricto cumplimiento del Criterio 1.1.4 de la pauta de evaluación, la solución de datos se esquematiza "
         "en sus tres niveles formales: Conceptual/Lógico, Lógico/Relacional (3FN) y Físico (DDL SQL ejecutable)."
     )
-    add_img(doc, "10_modelo_bd_3_niveles.png", "Figura 5: Esquema Arquitectural de Base de Datos en 3 Niveles (Conceptual, Relacional y Físico).")
-    add_img(doc, "02_modelo_bd_er.png", "Figura 6: Modelo Entidad-Relación Relacional Normalizado en 3FN — 12 Tablas del Sistema.")
+    add_img(doc, "10a_bd_nivel_conceptual.png", "Figura 5a: Nivel 1 — Modelo Conceptual (entidades del negocio y relaciones con cardinalidad).")
+    add_img(doc, "10b_bd_nivel_relacional.png", "Figura 5b: Nivel 2 — Modelo Relacional 3FN (tablas principales con PK, FK y UQ).")
+    add_img(doc, "10c_bd_nivel_fisico.png", "Figura 5c: Nivel 3 — Modelo Físico (DDL SQL: restricción anti-choques y cifrado AES-256).")
+    add_img(doc, "02_modelo_bd_er.png", "Figura 6: Modelo Entidad-Relación completo en 3FN — 12 tablas del sistema (diseño de Fernando Durán).")
 
     add_heading_styled(doc, "6.1 Diccionario de Datos Normalizado (Extracto Tablas Críticas)", 2)
     add_styled_table(

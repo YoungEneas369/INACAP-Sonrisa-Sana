@@ -16,14 +16,16 @@ Para facilitar la revisión tanto de la docente como de los compañeros del equi
 
 | Componente Agregado | ¿Para qué sirve? | ¿Dónde está en el proyecto? |
 | :--- | :--- | :--- |
-| 📄 **Informe Word Oficial** (`Cristopher_Figueroa.docx`) | Documento final con formato oficial INACAP, portada, autoría, tablas MoSCoW, fichas de Casos de Uso y los 10 diagramas incrustados. | [`Academico/Cristopher_Figueroa.docx`](./03_trabajo_final_optimizado/Academico/Cristopher_Figueroa.docx) |
-| 📊 **Libro Excel de Gestión** (`Cristopher_Figueroa_Proyecto.xlsx`) | 17 pestañas estandarizadas según el archivo modelo de la docente (`Huellitas`) con matriz RACI, Sprints, Gantt y Mockups. | [`Academico/Cristopher_Figueroa_Proyecto.xlsx`](./03_trabajo_final_optimizado/Academico/Cristopher_Figueroa_Proyecto.xlsx) |
-| 🗄️ **Diagrama BD en 3 Niveles** (`10_modelo_bd_3_niveles.png`) | **Clave del Criterio 1.1.4:** Desglose visual en: 1) Conceptual/Lógico, 2) Relacional (3FN) y 3) Físico (DDL SQL con prevención anti-choque). | [`Academico/diagramas/10_modelo_bd_3_niveles.png`](./03_trabajo_final_optimizado/Academico/diagramas/10_modelo_bd_3_niveles.png) |
+| 📄 **Informe Word** (`Cristopher_Figueroa.docx`) | Basado en el informe de Fernando. Se agregó: criterios Gherkin, ficha del CU03, diccionario de datos, BD en 3 niveles y anexo de pruebas. | [`Academico/Cristopher_Figueroa.docx`](./03_trabajo_final_optimizado/Academico/Cristopher_Figueroa.docx) |
+| 📊 **Libro Excel** (`Cristopher_Figueroa_Proyecto.xlsx`) | Mismo libro de 17 hojas de Fernando (ya seguía la plantilla `Huellitas`). Cambios: nombre `nombre_Apellido` y los diagramas de BD en 3 niveles en la hoja «Modelo BD». | [`Academico/Cristopher_Figueroa_Proyecto.xlsx`](./03_trabajo_final_optimizado/Academico/Cristopher_Figueroa_Proyecto.xlsx) |
+| 🗄️ **BD en 3 niveles** (`10a`, `10b`, `10c`) | **Criterio 1.1.4:** 1) Conceptual (entidades y rombos de relación), 2) Relacional 3FN (PK/FK), 3) Físico (SQL anti-choques y AES-256). El diagrama ER de 12 tablas de Fernando se mantiene. | [`Academico/diagramas/`](./03_trabajo_final_optimizado/Academico/diagramas) |
 | 📘 **Guía Técnica Paso a Paso** (`GUIA_TECNICA_PASO_A_PASO.md`) | Explicación didáctica y simple de cómo funciona cada pieza (UML, BD, seguridad AES-256) para entender el proyecto al 100%. | [`Academico/GUIA_TECNICA_PASO_A_PASO.md`](./03_trabajo_final_optimizado/Academico/GUIA_TECNICA_PASO_A_PASO.md) |
 | 🎤 **Guion de Defensa Oral** (`GUIA_PRESENTACION_DEFENSA.md`) | Libreto minuto a minuto (12-15 min) para la disertación grupal, diapositivas recomendadas y respuestas a preguntas de la profesora. | [`Academico/GUIA_PRESENTACION_DEFENSA.md`](./03_trabajo_final_optimizado/Academico/GUIA_PRESENTACION_DEFENSA.md) |
 | ⚖️ **Informe de Auditoría y Rúbrica** (`INFORME_AUDITORIA_Y_COMPARATIVA.md`) | Comparativa detallada entre la versión inicial (6.3) y la versión optimizada (7.0) desglosando los 60 puntos de la pauta. | [`Academico/INFORME_AUDITORIA_Y_COMPARATIVA.md`](./03_trabajo_final_optimizado/Academico/INFORME_AUDITORIA_Y_COMPARATIVA.md) |
 | ⚙️ **Configuración de Pruebas** (`pytest.ini`) | Resuelve errores de importación y permite ejecutar todas las pruebas automáticas simplemente escribiendo `pytest`. | [`pytest.ini`](./03_trabajo_final_optimizado/pytest.ini) |
 | 🚀 **Script de Inicio Rápido** (`iniciar_sistema.sh`) | Script ejecutable para levantar el servidor web en Linux / Android con un solo clic. | [`iniciar_sistema.sh`](./03_trabajo_final_optimizado/iniciar_sistema.sh) |
+
+| 🖼️ **Fotos comparativas** (5 láminas) | Resumen visual de qué se mantuvo y qué se agregó. | [`05_evaluacion_comparativa/fotos/`](./05_evaluacion_comparativa/fotos) |
 
 ---
 
