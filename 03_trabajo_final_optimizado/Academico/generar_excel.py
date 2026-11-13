@@ -9,7 +9,7 @@ from openpyxl.drawing.image import Image as XLImage
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DIAG_DIR = os.path.join(BASE_DIR, "diagramas")
-OUT_XLSX = "/root/INACAP/03_mi_trabajo/Cristopher_Figueroa_Proyecto.xlsx"
+OUT_XLSX = os.path.join(BASE_DIR, "Cristopher_Figueroa_Proyecto.xlsx")
 
 # Estilos
 FONT_TITLE = Font(name="Calibri", size=14, bold=True, color="FFFFFF")
@@ -451,6 +451,7 @@ def build_workbook():
     ]
     end_bd = write_table(ws, 4, ["Entidad A", "Card.", "Entidad B", "Verbo", "Regla de Negocio"], bd_rows, [22, 10, 22, 14, 64])
     embed_image(ws, "02_modelo_bd_er.png", f"A{end_bd + 2}", 900)
+    embed_image(ws, "10_modelo_bd_3_niveles.png", f"A{end_bd + 34}", 900)
 
     # 15. DICCIONARIO DATOS
     ws = wb.create_sheet("Diccionario Datos")
