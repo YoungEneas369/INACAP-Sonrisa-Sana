@@ -3,14 +3,14 @@
 
 - **Asignatura:** Modelamiento de Soluciones Informáticas · **Sección:** `114-2-F2`
 - **Docente:** Yaleni Gómez Peña — INACAP
-- **Integrantes:** Christopher D. Figueroa Arthur · Fernando A. Durán Leiva · Francisco A. Lara Yévenes
+- **Integrantes:** Cristopher D. Figueroa Arthur · Fernando A. Durán Leiva · Francisco A. Lara Yévenes
 - **Estándar seguido:** Rúbrica oficial (60 pts / 60% exigencia) + Plantilla docente `Huellitas_Proyecto_SCRUM`
 
 ---
 
 ## Introducción: Cómo usar esta Guía para Entender y Defender el Proyecto
 
-Este manual fue diseñado específicamente para que los tres integrantes del equipo (Christopher D. Figueroa Arthur, Fernando A. Durán Leiva y Francisco A. Lara Yévenes) comprendan desde cero cada concepto metodológico, cada diagrama UML, de Base de Datos, de Flujo, Wireframe y Kanban y cada pestaña del libro Excel «SonrisaSana_Proyecto_SCRUM.xlsx» frente a la evaluación Sumativa N° 5 con la docente Yaleni Gómez Peña (Sección 114-2-F2, 60 puntos, 60% de exigencia).
+Este manual fue diseñado específicamente para que los tres integrantes del equipo (Cristopher D. Figueroa Arthur, Fernando A. Durán Leiva y Francisco A. Lara Yévenes) comprendan desde cero cada concepto metodológico, cada diagrama UML, de Base de Datos, de Flujo, Wireframe y Kanban y cada pestaña del libro Excel «SonrisaSana_Proyecto_SCRUM.xlsx» frente a la evaluación Sumativa N° 5 con la docente Yaleni Gómez Peña (Sección 114-2-F2, 60 puntos, 60% de exigencia).
 
 > [!TIP]
 > **Idea Central de Todo el Proyecto (La Cadena de Trazabilidad):** Nada en ingeniería de software se inventa aislado. Todo nace del dolor del cliente (cuaderno físico -> choques, lentitud, falta de recordatorios, riesgo de privacidad). Desde ese problema se sigue una línea continua y conectada: Problemática -> Requerimientos (RF/RNF) -> Priorización MoSCoW -> Historias de Usuario (HU) -> Backlog/Gantt/Kanban -> Casos de Uso (CU) y Wireframes -> Base de Datos en 3 Niveles (3FN) -> Flujos TO-BE. Si entiendes esa cadena, puedes responder cualquier pregunta de la profesora sin memorizar nada de memoria.
@@ -72,7 +72,7 @@ MoSCoW es una técnica ágil (Criterio 1.1.2) que evita intentar construir todo 
 
 - **Product Owner (Dra. Valeria Morales):** Dueña del problema de negocio, define qué tiene más valor para la clínica, prioriza el Product Backlog y aprueba/rechaza avances en cada Sprint Review.
 - **Scrum Master (Fernando Durán):** Facilita las ceremonias SCRUM, mantiene al día la Carta Gantt y Trello, protege las reglas Kanban (límites WIP) y destraba impedimentos en <= 48 h.
-- **Equipo de Desarrollo (Christopher Figueroa, Fernando Durán, Francisco Lara):** Autoorganizado para analizar requisitos, modelar UML/BD, programar frontend/backend y ejecutar pruebas QA.
+- **Equipo de Desarrollo (Cristopher Figueroa, Fernando Durán, Francisco Lara):** Autoorganizado para analizar requisitos, modelar UML/BD, programar frontend/backend y ejecutar pruebas QA.
 - **Matriz RACI (hoja Roles SCRUM):** Asigna responsabilidad exacta sobre cada entregable. R = Responsable (quien ejecuta el trabajo), A = Accountable/Aprueba (una sola autoridad por entregable), C = Consultado (aporta criterio antes de cerrar), I = Informado (recibe notificación del resultado).
 - **Tablero Kanban y Método Pull (Diagrama 19):** Mientras SCRUM organiza el tiempo en iteraciones (5 Sprints a ~19 SP/Sprint), Kanban visualiza el flujo en 6 columnas con Límites WIP (Work In Progress: máx. 2 tarjetas en Progreso por persona, máx. 4 en Revisión QA). Nadie 'empuja' trabajo: cuando QA o un dev se libera, 'jala' (Pull) la siguiente tarjeta prioritaria. Lead Time (3,4 días) mide desde que el ítem entra al Sprint hasta Terminado; Cycle Time (1,6 días) mide solo el tiempo activo de desarrollo.
 
@@ -142,8 +142,8 @@ Para responder cuando la docente pregunte «¿Cómo fueron construyendo esta sol
 | --- | --- | --- |
 | 0:00 – 02:30 · Problema y Toma de Requerimientos | Fernando Durán (Scrum Master / BD) | Abrir Portada y Acta Proyecto en Excel. Explicar los 5 dolores del cuaderno físico (choques horarios, espera telefónica, inasistencias, fichas expuestas) y cómo nacen los 18 RF vs 13 RNF ISO/IEC 25010. |
 | 02:30 – 05:30 · MoSCoW, HUs, Backlog, Gantt y Kanban | Francisco Lara (Analista Funcional / UX) | Mostrar Resumen MoSCoW, Historias Usuario, Carta Gantt y Diagrama 19 (Tablero Kanban). Explicar por qué dejamos el 61,3% en Must, qué quedó en Won't (FONASA online, DICOM 3D, App nativa), las 39 tareas y los límites WIP del Kanban. |
-| 05:30 – 09:00 · Casos de Uso UML, Wireframes y Flujos TO-BE | Francisco Lara + Christopher Figueroa | Mostrar Diagramas 01 (General) y 03 (Agenda), más Wireframes 15–17 y Flujos 10–12. Explicar herencia de actores, <<include>> CU07 Validar disponibilidad, <<extend>> CU08/CU13, los 3 pasos de reserva (< 90 s), los 2 clics (< 30 s) y el Odontograma FDI. |
-| 09:00 – 13:00 · Base de Datos en 3 Niveles, Seguridad y SQL | Christopher Figueroa (Líder Técnico / QA) | Mostrar Diagramas 07 (Lógico), 08 (Relacional 3FN Pata de Gallo), 09 (Físico DDL) y sonrisa_sana_bd.sql. Explicar las 18 tablas (118 columnas), cómo el UNIQUE + Trigger trg_cita_bi_anti_colision elimina choques bajo concurrencia, y la doble defensa RBAC + AES-256 + auditoría. |
+| 05:30 – 09:00 · Casos de Uso UML, Wireframes y Flujos TO-BE | Francisco Lara + Cristopher Figueroa | Mostrar Diagramas 01 (General) y 03 (Agenda), más Wireframes 15–17 y Flujos 10–12. Explicar herencia de actores, <<include>> CU07 Validar disponibilidad, <<extend>> CU08/CU13, los 3 pasos de reserva (< 90 s), los 2 clics (< 30 s) y el Odontograma FDI. |
+| 09:00 – 13:00 · Base de Datos en 3 Niveles, Seguridad y SQL | Cristopher Figueroa (Líder Técnico / QA) | Mostrar Diagramas 07 (Lógico), 08 (Relacional 3FN Pata de Gallo), 09 (Físico DDL) y sonrisa_sana_bd.sql. Explicar las 18 tablas (118 columnas), cómo el UNIQUE + Trigger trg_cita_bi_anti_colision elimina choques bajo concurrencia, y la doble defensa RBAC + AES-256 + auditoría. |
 | 13:00 – 14:30 · Cierre y Conclusión | Todo el equipo | Recapitular métricas clave (< 1,5 s P95, 0% choques, cumplimiento Ley 20.584/19.628) y quedar atentos a las preguntas de la profesora. |
 
 ### 3.2 Banco de 12 Preguntas Típicas de la Profesora (con Respuesta Directa)

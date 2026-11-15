@@ -2,7 +2,7 @@
 -- SISTEMA DE GESTIÓN ODONTOLÓGICA "SONRISA SANA" (SGO-SonrisaSana)
 -- Base de Datos Relacional en 3FN - Motor MySQL 8.0+ / InnoDB / utf8mb4
 -- Alineado a Evaluación Sumativa 5 - Modelamiento de Soluciones Informáticas
--- Autores: Christopher D. Figueroa Arthur, Fernando A. Durán Leiva, Francisco A. Lara Yévenes
+-- Autores: Cristopher D. Figueroa Arthur, Fernando A. Durán Leiva, Francisco A. Lara Yévenes
 -- Docente: Yaleni Gómez Peña (INACAP - Sección 114-2-F2)
 -- ============================================================================
 

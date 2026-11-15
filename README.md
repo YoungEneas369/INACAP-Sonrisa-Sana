@@ -4,7 +4,7 @@ Repositorio oficial del proyecto de **Evaluación Sumativa N° 5 (Prueba N° 1 �
 
 - **Docente:** Yaleni Gómez Peña
 - **Integrantes del Equipo:**
-  - **Christopher D. Figueroa Arthur** — Líder Técnico / Backend, Base de Datos & QA
+  - **Cristopher D. Figueroa Arthur** — Líder Técnico / Backend, Base de Datos & QA
   - **Fernando A. Durán Leiva** — Scrum Master / Base de Datos
   - **Francisco A. Lara Yévenes** — Analista Funcional / UX & Diagramación
 - **Estándar aplicado:** Pauta oficial de evaluación (`60 / 60 puntos`, `60%` exigencia) + Plantilla completa de referencia docente [`Huellitas_Proyecto_SCRUM (Com_28102026).xlsx`](./01_Pauta_y_Referencia/Huellitas_Proyecto_SCRUM%20(Com_28102026).xlsx).
@@ -28,17 +28,24 @@ INACAP-Sonrisa-Sana/
 │   └── Diagramas_SonrisaSana/                           # 19 diagramas PNG de alta resolución (2x LANCZOS)
 └── 03_Guia_Paso_a_Paso_y_Defensa/
     ├── GUIA_MAESTRA_PASO_A_PASO_Y_CONCEPTOS.md          # Manual de estudio desde cero + Paso a Paso + Defensa
-    └── Guia_Maestra_Paso_a_Paso_y_Defensa_Sonrisa_Sana.docx
+    ├── Guia_Maestra_Paso_a_Paso_y_Defensa_Sonrisa_Sana.docx
+    ├── COMPARATIVA_DIFERENCIAS_TRABAJO_FERNANDO.md      # Auditoría comparativa detallada vs. entrega anterior de Fernando
+    └── Comparativa_Diferencias_Trabajo_Fernando.docx
 ```
 
 ---
 
-## 📖 ¿Por dónde empezar para estudiar y defender el proyecto?
+## 📖 ¿Por dónde empezar para estudiar, defender y comparar el proyecto?
 
 Si quieres comprender desde cero cada concepto técnico (**RF vs. RNF ISO/IEC 25010, MoSCoW, Historias de Usuario, Story Points, Casos de Uso `<<include>>`/`<<extend>>`, Tercera Forma Normal 3FN, Pata de Gallo, Triggers, Flujos TO-BE, Odontograma FDI y Tablero Kanban WIP**) y revisar el **guion de defensa oral con 12 preguntas típicas de la docente**, abre directamente:
 
 - 📘 **[Guía Maestra Paso a Paso y Conceptos (Markdown)](./03_Guia_Paso_a_Paso_y_Defensa/GUIA_MAESTRA_PASO_A_PASO_Y_CONCEPTOS.md)**
 - 📄 **[Guía Maestra Paso a Paso y Defensa (Word `.docx`)](./03_Guia_Paso_a_Paso_y_Defensa/Guia_Maestra_Paso_a_Paso_y_Defensa_Sonrisa_Sana.docx)**
+
+Y si necesitas revisar las **diferencias hoja por hoja, diagrama por diagrama y contra la rúbrica oficial** respecto a la entrega previa de Fernando:
+
+- 🔍 **[Comparativa y Diferencias con el Trabajo de Fernando (Markdown)](./03_Guia_Paso_a_Paso_y_Defensa/COMPARATIVA_DIFERENCIAS_TRABAJO_FERNANDO.md)**
+- 📑 **[Comparativa y Diferencias con el Trabajo de Fernando (Word `.docx`)](./03_Guia_Paso_a_Paso_y_Defensa/Comparativa_Diferencias_Trabajo_Fernando.docx)**
 
 ---
 
